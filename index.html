@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jeremy Ravenel">
+    <title>Jeremy Ravenel | CEO at Naas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <img src="https://media.licdn.com/dms/image/v2/C5603AQG_Sw9npO7vIg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1627385879420?e=2147483647&v=beta&t=MOmJGEU_ZLTs5IKra28E6DyOtTysvCse_XFT6-O9qM8" 
+             alt="Jeremy Ravenel" 
+             class="profile-pic">
+        <h1>Jérémy Ravenel</h1>
+        <p class="tagline">Farm boy turned data mercenary and now an entrepreneur. Passionate about practical innovation to make our digital lives less chaotic</p>
+        
+        <!-- Add social media icons -->
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/jeremyravenel" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/ravenel_jeremy" target="_blank" class="social-icon">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/naaslife" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/@naas-ai" target="_blank" class="social-icon">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <section id="about" class="content-section">
+            <h2 class="section-title">About me</h2>
+            <p>I'm Jeremy Ravenel, CEO at NaasAI, where we are creating the universal data & AI platform. My journey spans multiple industries, from corporate finance to AI and ontologies. My passion lies in bridging the gap between business models and AI to help organizations scale efficiently.</p>
+            <p>I'm excited to share my expanded mission that connects research, platform development, and the auditability of organizational AI systems. This unique combination of philosophy, tech, and business represents my commitment to shaping the future of AI.</p>
+        </section>
+
+        <section id="roles" class="content-section">
+            <h2 class="section-title">Current roles</h2>
+            <ul>
+                <li><strong>Founder & CEO</strong> - NaasAI
+                    <p>Building a Universal Data & AI Platform with ontology-driven AI assistants.</p>
+                </li>
+                <li><strong>Research Associate in Applied Ontology</strong> - University at Buffalo
+                    <p>Researching executable ontologies for AI alignment and compliance.</p>
+                </li>
+                <li><strong>Senior Advisor</strong> - Forvis Mazars (Data & AI Services)
+                    <p>Strategy and execution of Data & AI Products.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects" class="content-section">
+            <h2 class="section-title">Main focus</h2>
+            <ul>
+                <li><strong>Naas.ai</strong>: Building the universal AI platform for any organization.</li>
+                <li><strong>ABI</strong>: A framework to develop a collection of AI-driven assistants to streamline your operations.</li>
+                <li><strong>Ontology-based AI System Research</strong>: Exploring the future of AI with ontologies for smarter decision-making.</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2 class="section-title">Contact</h2>
+            <p>You can reach out to me through:</p>
+            <ul>
+                <li>Email: <a href="mailto:jeremy@naas.ai">jeremy@naas.ai</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Jérémy Ravenel. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Create cosmic dust particles
+        function createCosmicDust() {
+            const dust = document.createElement('div');
+            dust.className = 'cosmic-dust';
+            dust.style.left = Math.random() * 100 + 'vw';
+            dust.style.animation = `cosmic-dust ${Math.random() * 10 + 5}s linear infinite`;
+            document.body.appendChild(dust);
+            setTimeout(() => dust.remove(), 15000);
+        }
+        setInterval(createCosmicDust, 200);
+    </script>
+
+</body>
+</html>
